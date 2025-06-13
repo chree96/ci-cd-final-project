@@ -1,10 +1,10 @@
 # CI/CD project template
 
-This repository contains a template useful for integrate CI/CD in a project. 
+This repository contains a template useful for integrate CI/CD in a project. In this case the project is a simple Python app with a counter.
 
 ## Setup
 
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+It's needed to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
 
 ```bash
 bash bin/setup.sh
