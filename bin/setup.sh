@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "**************************************************"
-echo " Setting up CI/CD Final Project Environment"
+echo " Setting up CI/CD Environment"
 echo "**************************************************"
 
 echo "*** Installing Python 3.9 and Virtual Environment"
@@ -32,7 +32,7 @@ source ~/venv/bin/activate && python3 -m pip install --upgrade pip wheel
 source ~/venv/bin/activate && pip install -r requirements.txt
 
 echo "**************************************************"
-echo " CI/CD Final Project Environment Setup Complete"
+echo " CI/CD Environment Setup Complete"
 echo "**************************************************"
 echo ""
 echo "Use 'exit' to close this terminal and open a new one to initialize the environment"
