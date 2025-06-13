@@ -1,17 +1,25 @@
-# CI/CD project template
+# CI/CD Template Project
 
-This repository contains a template useful for integrate CI/CD in a project. In this case the project is a simple Python app with a counter.
+This repository provides a template to integrate CI/CD into a project.
+The example project is a simple Python application that includes a counter.
+
+CI/CD configurations are located in:
+
+* `.github/` — GitHub Actions workflows
+* `.tekton/` — Tekton pipelines for use with the OpenShift platform
 
 ## Setup
 
-It's needed to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+To install the required software and dependencies, run the `setup.sh` script located in the `bin/` directory:
 
 ```bash
 bash bin/setup.sh
 ```
 
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
+Once the script has completed, **exit the current shell** and start a new one to activate the Python virtual environment:
 
 ```bash
 exit
 ```
+
+Then reopen your terminal and navigate back to the project directory.
